@@ -1,24 +1,10 @@
-# vueproject2
 
-## Project setup
-```
-npm install
-```
+### Vue.js Project 
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+#### This Project is work in progress!
 
-### Compiles and minifies for production
-```
-npm run build
-```
+[1 – Vue.js Project starts here ](../../tree/6af23fdd0f0f76c9353ee8e20350e6a71dc1fe00/)
 
-### Lints and fixes files
-```
-npm run lint
-```
+[2 - Next ](../../tree//)
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+[3 - Next ](../../tree//)
