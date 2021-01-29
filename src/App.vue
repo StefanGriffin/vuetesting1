@@ -1,5 +1,7 @@
 <template>
 <img alt="" src="">
+<div> {{ greet }} {{ name }}</div>
+<div v-text="channel"></div>
 </template>
 
 <script>
@@ -8,7 +10,9 @@ export default {
   name: 'App',
   data() {
     return {
-      name: "Stef Griffin",
+      greet: "Hello",
+      name: "Stef Griffin 2021",
+      channel: "codeyourideas",
     };
   },
 };
