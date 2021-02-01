@@ -1,8 +1,15 @@
 <template>
+
 <img alt="" src="">
 <div> {{ greet }} {{ name }}</div>
-<div v-text="channel"></div>
+<div v-html="channel"></div>
+<div v-html="hack"></div>
+<h2 v-bind:id="HeadingId">Heading</h2>
+<button v-bind:disabled="isDisabled">Click Me</button>
+
 </template>
+
+
 
 <script>
 
@@ -12,11 +19,16 @@ export default {
     return {
       greet: "Hello",
       name: "Stef Griffin 2021",
-      channel: "codeyourideas",
+      channel: "<b>codeyourideas</b>",
+      hack: `<a href="#" onclick="alert('This is a joke')">Win a prize!</a>`,
+      headingID: "heading",
+      isDisabled: false,
     };
   },
 };
 </script>
+
+
 
 <style>
 #app {

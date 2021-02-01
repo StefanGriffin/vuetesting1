@@ -9,7 +9,7 @@
 
 [3 - Settings 2 ](../../tree/ffde5a570f80246e6ba9a390cc4943b8238760d2/)
 
-[4 - Bidding text - mustache syntax ](../../tree//)
+[4 - Bidding text - mustache syntax ](../../tree/44add800ce19a217b1b53a08772e95bc1e8bd4d9/)
 
 [5 - Empty ](../../tree//)
 
